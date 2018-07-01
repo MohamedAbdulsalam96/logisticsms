@@ -1,0 +1,11 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Consignment", 
+  "modified": "2018-06-29 00:12:33.926610", 
+  "name": "Consignment-Client", 
+  "script": "cur_frm.cscript.cubic_meter = function(doc, cdt, cdn) {\n\tvar d = locals[cdt][cdn];\n        d.total_amount = d.cubic_meter * d.unit_price\n        refresh_field(\"consignment\");\n}\n\ncur_frm.cscript.unit_price = cur_frm.cscript.cubic_meter", 
+  "script_type": "Client"
+ }
+]
