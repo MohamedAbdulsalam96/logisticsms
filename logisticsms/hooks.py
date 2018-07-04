@@ -120,4 +120,4 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "logisticsms.event.get_events"
 # }
 
-fixtures = ["Custom Field", {"dt":"DocType", "filters":[["module", "like", "Logistics Management System"}, "Custom Script", "Property Setter", "Print Format"]
+fixtures = ["Custom Field", "Custom Script", "Property Setter", "Print Format"]
