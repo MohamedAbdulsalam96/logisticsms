@@ -7,7 +7,7 @@ app_title = "Logistics Management System"
 app_publisher = "Aakvatech Limited"
 app_description = "This system is for a logistics company to import, clear, store and dispatch the goods for customers."
 app_icon = "'octicon octicon-rocket'"
-app_color = "'blue'"
+app_color = "'red'"
 app_email = "info@aakvatech.com"
 app_license = "MIT"
 

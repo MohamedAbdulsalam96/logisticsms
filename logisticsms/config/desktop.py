@@ -6,7 +6,7 @@ def get_data():
 	return [
 		{
 			"module_name": "Logistics Management System",
-			"color": "'blue'",
+			"color": "'red'",
 			"icon": "'octicon octicon-rocket'",
 			"type": "module",
 			"label": _("Logistics Management System")
