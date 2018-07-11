@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "align_labels_right": 0, 
+  "css": null, 
+  "custom_format": 0, 
+  "disabled": 0, 
+  "doc_type": "Receipt", 
+  "docstatus": 0, 
+  "doctype": "Print Format", 
+  "font": "Verdana", 
+  "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Receipt<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"customer\", \"label\": \"Customer\"}, {\"print_hide\": 0, \"fieldname\": \"consignment_number\", \"label\": \"Consignment Number\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"receipt_date\", \"label\": \"Receipt Date\"}, {\"print_hide\": 0, \"fieldname\": \"amount\", \"align\": \"right\", \"label\": \"Amount\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"description\", \"label\": \"Description\"}, {\"print_hide\": 0, \"fieldname\": \"payment_mode\", \"label\": \"Payment Mode\"}, {\"print_hide\": 0, \"fieldname\": \"payment_reference\", \"label\": \"Payment Reference\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"final_payment\", \"label\": \"Final Payment\"}]", 
+  "html": null, 
+  "line_breaks": 0, 
+  "modified": "2018-07-11 22:08:35.265166", 
+  "module": "Logistics Management System", 
+  "name": "Tosh Receipt", 
+  "print_format_builder": 1, 
+  "print_format_type": "Server", 
+  "show_section_headings": 0, 
+  "standard": "No"
+ }
+]

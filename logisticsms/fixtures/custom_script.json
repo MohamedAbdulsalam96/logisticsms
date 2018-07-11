@@ -7,5 +7,14 @@
   "name": "Consignment-Client", 
   "script": "cur_frm.cscript.cubic_meter = function(doc, cdt, cdn) {\n\tvar d = locals[cdt][cdn];\n        d.total_amount = d.cubic_meter * d.unit_price\n        refresh_field(\"consignment\");\n}\n\ncur_frm.cscript.unit_price = cur_frm.cscript.cubic_meter", 
   "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Receipt", 
+  "modified": "2018-07-11 22:06:59.084301", 
+  "name": "Receipt-Client", 
+  "script": "frappe.ui.form.on(\"Receipt\", \"onload\", function(frm) {\n cur_frm.set_query(\"consignment_number\",function() {\n        return {\n            \"filters\": {\n                \"customer_name\":  cur_frm.doc.customer\n            }\n        };\n    });\n});\n", 
+  "script_type": "Client"
  }
 ]

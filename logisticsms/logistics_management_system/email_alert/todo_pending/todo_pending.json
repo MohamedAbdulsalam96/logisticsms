@@ -1,0 +1,30 @@
+{
+ "attach_print": 0, 
+ "condition": "doc.status==\"Open\" ", 
+ "creation": "2018-07-10 20:39:48.490640", 
+ "date_changed": "date", 
+ "days_in_advance": 1, 
+ "docstatus": 0, 
+ "doctype": "Email Alert", 
+ "document_type": "ToDo", 
+ "enabled": 1, 
+ "event": "Days After", 
+ "idx": 0, 
+ "is_standard": 1, 
+ "message": "Please complete the assigned todo", 
+ "modified": "2018-07-10 20:48:32.986525", 
+ "modified_by": "Administrator", 
+ "module": "Logistics Management System", 
+ "name": "ToDo Pending", 
+ "owner": "Administrator", 
+ "recipients": [
+  {
+   "email_by_document_field": "owner"
+  }, 
+  {
+   "email_by_document_field": "assigned_by"
+  }
+ ], 
+ "subject": "Todo Pending", 
+ "value_changed": "date"
+}
